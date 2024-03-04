@@ -1,0 +1,251 @@
+
+.contact-container{
+    padding: 20rem 0rem ;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+}
+
+
+.contact-border{
+    margin-top: -10rem;
+    max-width: 1370px;
+    min-width: 1370px;
+    background-color: #24262b;
+    box-shadow: 0px 0px 300px #ec065341; 
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left{
+width: 30%;
+height: 36rem;
+padding: 2rem;
+background-color: #ec0653;
+border-radius: 0.3rem;
+font-size: 1rem;
+}
+.contact-left a{
+    text-decoration: none;
+    color: white;
+}
+.contact-left a:hover{
+    cursor: pointer;
+    color: #ffd0df;
+}
+.contact-left-hidden{
+    display: none;
+}
+
+.contact-right{
+width: 70%;
+padding: 2rem;
+display: flex;
+flex-direction: column;
+}
+
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid #ec0653; 
+    background-color: #24262b;
+    font-size: 1rem;
+    padding: 0.7rem 0rem;
+    color: white;
+    cursor: pointer;
+    float: right;
+    outline:none;
+}
+.fields{
+    padding: 0.6rem 0rem 0.1rem 0rem;
+    
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid #ec0653; 
+    font-size: 1rem;
+    color: white;
+    background-color: #24262b;
+    padding: 1rem 0.3rem;
+    height:200px;
+}
+
+
+#submit{    
+    background-color: #ec0653;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: 0px 0px 20px #000000;
+    max-width: 6rem;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#submit:hover{    
+    background-color: #ff84ad; 
+    box-shadow: 0px 0px 20px #ec0653;
+}
+
+.fa-brands {
+    font-size: 1.3rem;
+    text-align: center;
+}
+.fa-solid {
+    font-size: 1.3rem;
+}
+.fa-brands:hover {
+    opacity: 0.6;
+}  
+.fa-telegram {
+    font-size: 1.4rem;
+}
+#sendemail{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1471px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1300px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 1000px;
+    }    
+}
+
+@media only screen and (max-width: 1000px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 800px;
+    }
+}
+@media only screen and (max-width: 900px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 700px;
+    }
+}
+@media only screen and (max-width: 700px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 200px;
+        
+    }
+    .contact-left{
+        width: 20%;
+        height: 36rem;
+        padding: 2rem;
+        background-color: #ec0653;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        }
+
+#sendemail{
+    display:inline ;
+}
+        #mailto{
+            display: none;
+        }
+}
+
+@media only screen and (max-width: 700px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 200px;
+        
+    }
+    .contact-left{
+        width: 20%;
+        height: 36rem;
+        padding: 2rem;
+        background-color: #ec0653;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        }
+
+#sendemail{
+    display:inline ;
+}
+        #mailto{
+            display: none;
+        }
+
+.contact-left{
+height: 35rem;
+}
+
+}
+
+@media only screen and (max-width: 530px) {
+
+    .contact-container{
+        padding: 10rem 0rem 4rem 0rem ;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+        flex-direction: column;
+    }    
+    
+    .contact-border{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-left-hidden{
+        width: 100%;
+        background-color: #ec0653;
+        display: block;
+    }
+    .contact-left-hidden a{
+        padding: 1rem 0rem ;
+        padding-left: 2.8rem;;
+        text-decoration: none;
+        color: white;
+    }
+    .contact-left-hidden h1{
+        padding: 1rem 0rem;
+        padding-left: 2.8rem;
+    }
+
+    .contact-left-hidden a:hover{
+        cursor: pointer;
+        color: #ffd0df;
+    }
+
+    .contact-left{
+        display: none;
+    }
+
+    .contact-right{
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+} 
+

@@ -1,0 +1,246 @@
+
+.about-container{
+    margin: 0px;
+    background-color: #5f5f5f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.about-container h1{
+    padding: 2rem 0rem 1rem 0rem;
+ font-weight: 100;
+ font-size: 2.8rem;
+}
+
+.about-content{
+    max-width: 1100px;
+    min-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-left{
+    width: 50%;
+}
+
+.about-left h1{
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+.about-right{
+    width: 50%;
+}
+
+.highlight-text {
+    color: #e91e63;
+}
+
+
+.about-container-repeat{
+    margin: 0px;
+    background-color: #5f5f5f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 2rem 0rem;
+}
+
+.about-content-repeat{
+    max-width: 1100px;
+    min-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-left-repeat{
+    width: 50%;
+}
+
+.about-left-repeat h1{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.about-right-repeat{
+    width: 50%;
+}
+
+.get-started{   
+    background-color: #5f5f5f;
+    padding: 2rem 0rem;
+        color: azure;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .started-content{     
+            max-width: 1370px;        
+            color: azure;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+    }
+    .started-content h1{
+        font-weight: 100;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align:center;
+    }
+
+    .started-content a{
+        padding: 0.5rem 1rem;
+       background-color: #e91e63;
+       text-decoration: none;
+       color:#ffffff;
+       border-radius: 0.3rem;
+       margin-bottom: 2rem;
+       }
+
+
+@media only screen and (max-width: 1471px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1300px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 1100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 1000px;
+    }    
+}
+
+@media only screen and (max-width: 1000px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 800px;
+    }
+}
+@media only screen and (max-width: 900px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 700px;
+    }
+}
+@media only screen and (max-width: 700px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 200px;
+        
+    }
+    .contact-left{
+        width: 20%;
+        height: 36rem;
+        padding: 2rem;
+        background-color: #ec0653;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        }
+
+#sendemail{
+    display:inline ;
+}
+        #mailto{
+            display: none;
+        }
+}
+
+@media only screen and (max-width: 700px) { 
+    .contact-border{
+        margin-top: -10rem;
+        min-width: 200px;
+        
+    }
+    .contact-left{
+        width: 20%;
+        height: 36rem;
+        padding: 2rem;
+        background-color: #ec0653;
+        border-radius: 0.3rem;
+        font-size: 1rem;
+        }
+
+#sendemail{
+    display:inline ;
+}
+        #mailto{
+            display: none;
+        }
+
+.contact-left{
+height: 35rem;
+}
+
+}
+
+@media only screen and (max-width: 530px) {
+
+    .contact-container{
+        padding: 10rem 0rem 4rem 0rem ;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+        flex-direction: column;
+    }    
+    
+    .contact-border{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-left-hidden{
+        width: 100%;
+        background-color: #ec0653;
+        display: block;
+    }
+    .contact-left-hidden a{
+        padding: 1rem 0rem ;
+        padding-left: 2.8rem;;
+        text-decoration: none;
+        color: white;
+    }
+    .contact-left-hidden h1{
+        padding: 1rem 0rem;
+        padding-left: 2.8rem;
+    }
+
+    .contact-left-hidden a:hover{
+        cursor: pointer;
+        color: #ffd0df;
+    }
+
+    .contact-left{
+        display: none;
+    }
+
+    .contact-right{
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+} 
+
